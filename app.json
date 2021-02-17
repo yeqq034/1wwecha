@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "index/index",
+    "index/index2"
+  ],
+  "tabBar": {
+    "custom": true,
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "index/index",
+        "iconPath": "image/2.png",
+        "selectedIconPath": "image/22.png",
+        "text": "shouye"
+      },
+      {
+        "pagePath": "index/index2",
+        "iconPath": "image/1.png",
+        "selectedIconPath": "/image/11.png",
+        "text": "订单"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
