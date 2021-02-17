@@ -1,0 +1,288 @@
+/* 第一部分：fixedPosition */
+.fixedPosition .picture{
+  height: 40rpx;
+  width: 40rpx;
+  margin-right: 20rpx;
+  background-color: blue;
+}
+.fixedPosition .college{
+  font-size: 30rpx;
+}
+.fixedPosition .arrowhead{
+  height: 40rpx;
+  width: 40rpx;
+  margin-left: 10rpx;
+  margin-right: 280rpx;
+  background-color: blue;
+}
+.fixedPosition{
+  height: 70rpx;
+  margin-bottom: 10rpx;
+  margin-top: 10rpx;
+  display: flex;
+  align-items: center;
+}
+.allfixedPosition{
+  margin-left: 30rpx;
+}
+/* 第二部分 bigPicture */
+.bigPicture .termBegin{
+  height: 200rpx;
+  width: 700rpx;
+  border-radius: 20rpx;
+  background-color: rgb(204, 204, 245);
+}
+.bigPicture{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+/* 第三部分dining room */
+.diningRoom .part1 .picture{
+  height: 80rpx;
+  width: 80rpx;
+  margin-top: 10rpx;
+  border-radius: 50%;
+  background-color: rgb(205, 210, 255);
+}
+.diningRoom .part1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: space-evenly;
+}
+.diningRoom .part1 .text{
+  font-size: 20rpx;
+}
+.diningRoom{
+  height: 140rpx;
+  width: 700rpx;
+  border-radius: 10rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.alldiningRoom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* 第四部分 “公告” */
+.noticeBoard .part .suona{
+  height: 30rpx;
+  width: 30rpx;
+  background-color: blueviolet;
+  border-radius: 50%;
+  margin-left: 20rpx;
+}
+.noticeBoard .part .verticalLine{
+  width: 5rpx;
+  height: 35rpx;
+  background-color: blueviolet;
+}
+.noticeBoard .part  .left .text{
+  margin-left: 10rpx;
+  font-size: 25rpx;
+  font-weight: 600;
+  margin-right: 20rpx;
+}
+.noticeBoard .right{
+  width: 100rpx;
+  margin-right: 30rpx;
+  height: 40rpx;
+  background-color: blueviolet;
+  border-radius: 50rpx;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.noticeBoard .left{
+  width: 170rpx;
+  height: 70rpx;
+  border-radius: 50rpx;
+  display: flex;
+  align-items: center;
+}
+
+.noticeBoard .right .text{
+  font-size: 20rpx;
+  color: white;
+}
+.noticeBoard .part{
+  height: 80rpx;
+  width: 700rpx;
+  border-radius: 10rpx;
+  background-color: rgb(205, 210, 255);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.noticeBoard{
+  height: 140rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* 第五 */
+.SearchBox .right .searchPicture{
+  height: 30rpx;
+  width: 30rpx;
+  margin:0rpx 10rpx 0rpx 30rpx; 
+  background-color: rgb(196, 195, 195);}
+.SearchBox .right .text{
+    font-size: 20rpx;
+    font-weight: 100;
+    color:gray;}
+.SearchBox .center .one{
+    font-size: 30rpx;
+    margin-right: 10rpx;
+    color:black;}
+.SearchBox .center .arrow{
+    height: 30rpx;
+    width: 30rpx;
+    background-color: rgb(205, 210, 255);}
+.SearchBox .expand{
+    height: 30rpx;
+    width: 30rpx;
+    background-color: rgb(205, 210, 255);}
+.SearchBox .right{
+  height: 60rpx;
+  width: 450rpx;
+  margin-right: 30rpx;
+  background-color: rgb(223, 223, 223);
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.SearchBox .center{
+  height: 60rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.SearchBox{
+  width: 700rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.part5{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/* 第六部分 */
+.six .a .youknow .Photo2{
+  height: 200rpx;
+  width: 200rpx;
+  background-color: rgb(54, 54, 54);
+  position:absolute;
+  background: rgba(0,0,0,0.1);
+  margin-top: 150rpx;
+}
+.six .a .youknow .backPhoto{
+  border-radius: 10rpx;
+}
+.six .a .youknow .bookDinner{
+  font-size: 20rpx;
+  font-weight: 600;
+  color: white;
+  width: 32rpx;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40rpx;
+  background-color: orange;
+
+}
+.six .a .youknow .Photo2{
+  opacity: 0.7;
+}
+.six .a .youknow .Photo2 .title{
+  font-size: 30rpx;
+  font-weight: 500;
+  color: black;
+}
+.six .a .youknow .Photo2 .deliver{
+  font-size: 20rpx;
+  color:gray;
+}
+.six .a .youknow .Photo2 .grade .star{
+  height: 20rpx;
+  width: 20rpx;
+  margin-right: 10rpx;
+  background-color: orange;
+}
+.six .a .youknow .Photo2 .grade .number{
+  color: orange;
+  font-size: 20rpx;
+}
+.six .a .youknow .Photo2 .grade{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.six .a .youknow .Photo2 .out{
+  margin-left: 10rpx;
+  height: 200rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.six .a .youknow{
+  margin-right: 30rpx;
+  margin-bottom: 180rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.six .a{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.outSix{
+  /* background-color: blue; */
+  height: 1200rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin-top: 30rpx; */
+  margin-left: 30rpx;
+}
+/* 下划线 */
+.bottom .lineLeft , .lineRight{
+  width: 100rpx;
+  height: 5rpx;
+  background-color: rgb(189, 189, 189);
+}
+.bottom .text{
+  color: gray;
+  font-size: 30rpx;
+  margin: 0 20rpx 0 20rpx;
+}
+.bottom{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.outBottom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 150rpx;
+}

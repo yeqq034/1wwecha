@@ -1,0 +1,116 @@
+<!-- 第一部分 -->
+<view class="allfixedPosition">
+  <view class="fixedPosition">
+    <view class="picture"></view>
+    <view class="college">郑州大学新校区</view>
+    <view class="arrowhead"></view>
+  </view>
+</view>
+
+<!-- 第二部分 -->
+<view class="bigPicture">
+  <view class="termBegin"></view>
+</view>
+
+<!-- 第三部分 -->
+<view class="alldiningRoom">
+  <view class="diningRoom">
+    <view class="part1">
+      <view class="picture"></view>
+      <view class="text">餐厅1</view>
+    </view>
+    <view class="part1">
+      <view class="picture"></view>
+      <view class="text">餐厅2</view>
+    </view>
+    <view class="part1">
+      <view class="picture"></view>
+      <view class="text">餐厅3</view>
+    </view>
+    <view class="part1">
+      <view class="picture"></view>
+      <view class="text">餐厅4</view>
+    </view>
+  </view>
+</view>
+<view class="alldiningRoom">
+  <view class="diningRoom">
+    <view class="part1">
+      <view class="picture"></view>
+      <view class="text">餐厅5</view>
+    </view>
+    <view class="part1">
+      <view class="picture"></view>
+      <view class="text">餐厅6</view>
+    </view>
+    <view class="part1">
+      <view class="picture"></view>
+      <view class="text">餐厅7</view>
+    </view>
+    <view class="part1">
+      <view class="picture"></view>
+      <view class="text">餐厅8</view>
+    </view>
+  </view>
+</view>
+
+<!-- 第四部分 -->
+<view class="noticeBoard">
+  <view class="part">
+    <view class="left">
+      <view class="suona"></view>
+      <view class="text">广场</view>
+      <view class="verticalLine"></view>
+    </view>
+    <view class="right">
+      <text class="text">去看看</text>
+    </view>
+  </view>
+
+</view>
+
+<!-- 第五行 -->
+<view class="part5">
+  <view class="SearchBox">
+    <view class="right">
+      <view class="searchPicture"></view>
+      <view class="text">搜索店铺或商品名称</view>
+    </view>
+    <view class="center">
+      <view class="one">综合排序</view>
+      <view class="arrow"></view>
+    </view>
+    <view class="left">
+      <view class="expand"></view>
+    </view>
+  </view>
+</view>
+<!-- 第六行 -->
+<view class="outSix">
+  <view class="six">
+    <view class="a">
+      <view class="youknow" wx:for="{{9}}" wx:key="index" id="{{index}}">
+        <view class="Photo2">
+          <view class="out">
+            <view class="bookDinner">订</view>
+            <view class="title">麦加美汉堡</view>
+            <view class="deliver">满6元起送</view>
+            <view class="grade">
+              <view class="star"></view>
+              <view class="number">4.5</view>
+            </view>
+          </view>
+        </view>
+        <image class="backPhoto" src="/mmmm/miniprogram/pages/home2/asset/steet.jpg" style="height:200rpx;width:200rpx"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<!-- 下划线 -->
+<view class="outBottom">
+  <view class="bottom">
+    <view class="lineLeft"></view>
+    <view class="text">加载完了</view>
+    <view class="lineRight"></view>
+  </view>
+</view>
